@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 0 50px;
+    background: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first {
+    padding: 20px 15% 30px;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Sonsie One', cursive;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header ul {
+    list-style: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    gap: 150px;
+    align-self: center;
+}
+
+.content {
+    display: flex;
+    margin: 100px 0;
+    color: white;
+}
+
+.content div {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+.content button {
+    align-self: flex-start;
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content div img {
+    width:80%;
+    align-self:flex-end
+}
+
+.content h1 {
+    width: 75%;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.content p{
+    width: 80%;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 15px;
+}
+
