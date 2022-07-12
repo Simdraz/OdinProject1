@@ -70,7 +70,10 @@ body {
 
 .content div img {
     width:80%;
-    align-self:flex-end
+    align-self:flex-end;
+    -webkit-box-shadow: 1px 1px 40px -5px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 1px 40px -5px rgba(0,0,0,1);
+    box-shadow: 1px 1px 40px -5px rgba(0,0,0,1);
 }
 
 .content h1 {
@@ -86,3 +89,57 @@ body {
     margin-bottom: 15px;
 }
 
+.second {
+    padding: 40px 15% 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second h1 {
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+
+.img1, .img2, .img3, .img4 {
+    height:200px;
+    width: 200px;
+    border-radius: 20px;
+    border: 4px solid #3882f6;
+    background-image: url("../images/camp5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img1 {
+    background-image: url("../images/camp2.jpg");
+}
+
+.img2 {
+    background-image: url("../images/camp3.jpg");
+}
+
+.img3 {
+    background-image: url("../images/camp4.jpg");
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    gap:10%;
+    margin-bottom: 100px;
+}
+
+.list p {
+    padding-top: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
