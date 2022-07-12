@@ -208,3 +208,13 @@ body {
     font-weight: bold;
     align-self: center;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 40px;
+    font-size: 22px;
+}
