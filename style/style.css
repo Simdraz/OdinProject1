@@ -76,6 +76,7 @@ body {
 }
 
 .content h1 {
+    letter-spacing: 1px;
     width: 75%;
     font-size: 48px;
     font-weight: bold;
@@ -84,6 +85,7 @@ body {
 .content p{
     width: 80%;
     font-size: 18px;
+    letter-spacing: 1px;
     color: #e5e7eb;
     margin-bottom: 15px;
 }
@@ -161,6 +163,48 @@ body {
 
 .third strong {
     align-self: flex-end;
-    font-size: 24px;
+    letter-spacing: 1px;
+    font-size: 22px;
     padding-right: 50px;
+}
+
+.fourth {
+    padding: 100px 15%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    padding: 80px 0;
+    width: 100%;
+    border-radius: 15px;
+    background: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    color: #e5e7eb;
+}
+
+.box h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.box p {
+    padding-top: 5px;
+    font-size: 24px;
+}
+
+.box button {
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    align-self: center;
 }
